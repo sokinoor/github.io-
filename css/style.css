@@ -1,0 +1,82 @@
+
+/** Base style **/
+section {
+    padding: top 40PX; bottom: 40px;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+
+.bg-info,
+.btn-info {
+      background-color: #0475ba!important;
+  }
+
+/**
+ *
+ * HEADER
+ *
+ */
+#header {
+    background-image:url(../img/header.jpg);
+    background-color: black;
+    min-height: 700px;
+    color: white; 
+    padding-top: 160px; 
+}
+ 
+
+#header
+p {
+    font-size: 2em; 
+}
+form{ 
+background:white;
+color: black;
+padding: 40px 30px;
+border-radius: 10px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+/** SECTIONS **/
+#étudiants {
+ color:white;
+ margin-top: 100px;
+}
+img{
+    border-radius : 5px;
+}
+#bénévoles {
+ color: white;  
+margin-top: 100px;
+}
+img{
+ border-radius: 5px;  
+}
+/** TEAM **/
+#team  {
+text-align: center;
+}
+.team-member
+ img{
+height: 100px; width: 100px; 
+border-radius: 50px;
+margin-bottom: 15px;
+}
+h6 {
+color: #0475ba;
+}
+/** FOOTER **/
+footer {
+padding-top: 60px;
+padding-bottom: 60px;    
+}
